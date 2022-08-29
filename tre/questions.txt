@@ -1,3 +1,7 @@
 Tre Reese
 
 It appears nothing happened
+
+Now the directory` appears in my repository!
+
+theres one copy, when you move the file there will only be the one moved file avavailable in the repository
