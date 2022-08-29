@@ -1,0 +1,137 @@
+trees@GalaxyBook MINGW64 ~
+$ cd repos1
+
+trees@GalaxyBook MINGW64 ~/repos1 (main)
+$ cd softdev1
+
+trees@GalaxyBook MINGW64 ~/repos1/softdev1 (main)
+$ git clone github.com/GCIS-123/unit02-tre-reese
+fatal: repository 'github.com/GCIS-123/unit02-tre-reese' does not exist
+
+trees@GalaxyBook MINGW64 ~/repos1/softdev1 (main)
+$ cd ..
+
+trees@GalaxyBook MINGW64 ~/repos1 (main)
+$ cd ..
+
+trees@GalaxyBook MINGW64 ~
+$ ls -la
+total 9031
+drwxr-xr-x 1 trees 197609       0 Aug 29 00:08  ./
+drwxr-xr-x 1 trees 197609       0 Apr  8 10:45  ../
+-rw-r--r-- 1 trees 197609    3002 Aug 29 00:14  .bash_history
+-rw-r--r-- 1 trees 197609      54 Aug 26 12:57  .gitconfig
+-rw-r--r-- 1 trees 197609      20 Aug 26 13:36  .lesshst
+-rw-r--r-- 1 trees 197609   11792 Aug 29 00:08  .viminfo
+drwxr-xr-x 1 trees 197609       0 Apr  8 10:13  AppData/
+lrwxrwxrwx 1 trees 197609      30 Apr  8 10:13 'Application Data' -> /c/Users/trees/AppData/Roaming/
+drwxr-xr-x 1 trees 197609       0 Apr  8 10:28  Contacts/
+lrwxrwxrwx 1 trees 197609      58 Apr  8 10:13  Cookies -> /c/Users/trees/AppData/Local/Microsoft/Windows/INetCookies/
+drwxr-xr-x 1 trees 197609       0 Aug 29 12:06 'Creative Cloud Files'/
+drwxr-xr-x 1 trees 197609       0 Apr  8 10:30  Documents/
+drwxr-xr-x 1 trees 197609       0 Aug 28 23:32  Downloads/
+drwxr-xr-x 1 trees 197609       0 Apr  8 10:28  Favorites/
+drwxr-xr-x 1 trees 197609       0 Aug 26 12:29  IntelGraphicsProfiles/
+drwxr-xr-x 1 trees 197609       0 Apr  8 10:28  Links/
+lrwxrwxrwx 1 trees 197609      28 Apr  8 10:13 'Local Settings' -> /c/Users/trees/AppData/Local/
+drwxr-xr-x 1 trees 197609       0 Apr  8 10:28  Music/
+lrwxrwxrwx 1 trees 197609      24 Apr  8 10:13 'My Documents' -> /c/Users/trees/Documents/
+-rw-r--r-- 1 trees 197609 4718592 Aug 29 11:48  NTUSER.DAT
+-rw-r--r-- 1 trees 197609   65536 Apr 30 12:39  NTUSER.DAT{1c2b59c6-c5f5-11eb-bacb-000d3a96488e}.TM.blf
+-rw-r--r-- 1 trees 197609  524288 Apr 30 12:39  NTUSER.DAT{1c2b59c6-c5f5-11eb-bacb-000d3a96488e}.TMContainer00000000000000000001.regtrans-ms
+-rw-r--r-- 1 trees 197609  524288 Apr  8 10:13  NTUSER.DAT{1c2b59c6-c5f5-11eb-bacb-000d3a96488e}.TMContainer00000000000000000002.regtrans-ms
+lrwxrwxrwx 1 trees 197609      66 Apr  8 10:13  NetHood -> '/c/Users/trees/AppData/Roaming/Microsoft/Windows/Network Shortcuts'/
+drwxr-xr-x 1 trees 197609       0 Apr 10 21:25  OneDrive/
+lrwxrwxrwx 1 trees 197609      66 Apr  8 10:13  PrintHood -> '/c/Users/trees/AppData/Roaming/Microsoft/Windows/Printer Shortcuts'/
+lrwxrwxrwx 1 trees 197609      55 Apr  8 10:13  Recent -> /c/Users/trees/AppData/Roaming/Microsoft/Windows/Recent/
+drwxr-xr-x 1 trees 197609       0 Apr  8 10:28 'Saved Games'/
+drwxr-xr-x 1 trees 197609       0 Apr  8 10:45  Searches/
+lrwxrwxrwx 1 trees 197609      55 Apr  8 10:13  SendTo -> /c/Users/trees/AppData/Roaming/Microsoft/Windows/SendTo/
+lrwxrwxrwx 1 trees 197609      59 Apr  8 10:13 'Start Menu' -> '/c/Users/trees/AppData/Roaming/Microsoft/Windows/Start Menu'/
+lrwxrwxrwx 1 trees 197609      58 Apr  8 10:13  Templates -> /c/Users/trees/AppData/Roaming/Microsoft/Windows/Templates/
+drwxr-xr-x 1 trees 197609       0 Apr  8 16:47  Videos/
+-rw-r--r-- 1 trees 197609 2105344 Apr  8 10:13  ntuser.dat.LOG1
+-rw-r--r-- 1 trees 197609 1242112 Apr  8 10:13  ntuser.dat.LOG2
+-rw-r--r-- 1 trees 197609      20 Apr  8 10:13  ntuser.ini
+drwxr-xr-x 1 trees 197609       0 Aug 28 23:25  repos1/
+drwxr-xr-x 1 trees 197609       0 Aug 24 21:25  softdev1/
+
+trees@GalaxyBook MINGW64 ~
+$ cd repos1
+
+trees@GalaxyBook MINGW64 ~/repos1 (main)
+$ cd softdev1
+
+trees@GalaxyBook MINGW64 ~/repos1/softdev1 (main)
+$ mkdir practicum
+
+trees@GalaxyBook MINGW64 ~/repos1/softdev1 (main)
+$ cd practicum
+
+trees@GalaxyBook MINGW64 ~/repos1/softdev1/practicum (main)
+$ ls -la
+total 4
+drwxr-xr-x 1 trees 197609 0 Aug 29 12:12 ./
+drwxr-xr-x 1 trees 197609 0 Aug 29 12:12 ../
+
+trees@GalaxyBook MINGW64 ~/repos1/softdev1/practicum (main)
+$ vi about_me.txt
+
+trees@GalaxyBook MINGW64 ~/repos1/softdev1/practicum (main)
+$ ls
+about_me.txt
+
+trees@GalaxyBook MINGW64 ~/repos1/softdev1/practicum (main)
+$ df
+Filesystem           1K-blocks      Used Available Use% Mounted on
+C:/Program Files/Git 482972668 171229560 311743108  36% /
+
+trees@GalaxyBook MINGW64 ~/repos1/softdev1/practicum (main)
+$ cd ..
+
+trees@GalaxyBook MINGW64 ~/repos1/softdev1 (main)
+$ cd ..
+
+trees@GalaxyBook MINGW64 ~/repos1 (main)
+$ cd ..
+
+trees@GalaxyBook MINGW64 ~
+$ df
+Filesystem           1K-blocks      Used Available Use% Mounted on
+C:/Program Files/Git 482972668 171225724 311746944  36% /
+
+trees@GalaxyBook MINGW64 ~
+$ cd repos1
+
+trees@GalaxyBook MINGW64 ~/repos1 (main)
+$ cd softdev1
+
+trees@GalaxyBook MINGW64 ~/repos1/softdev1 (main)
+$ cd practicum
+
+trees@GalaxyBook MINGW64 ~/repos1/softdev1/practicum (main)
+$ ls about_me.txt
+about_me.txt
+
+trees@GalaxyBook MINGW64 ~/repos1/softdev1/practicum (main)
+$ cp about_me.txt
+cp: missing destination file operand after 'about_me.txt'
+Try 'cp --help' for more information.
+
+trees@GalaxyBook MINGW64 ~/repos1/softdev1/practicum (main)
+$ cp about_me.txt about_me_copy.txt
+
+trees@GalaxyBook MINGW64 ~/repos1/softdev1/practicum (main)
+$ ls -la
+total 6
+drwxr-xr-x 1 trees 197609  0 Aug 29 12:17 ./
+drwxr-xr-x 1 trees 197609  0 Aug 29 12:12 ../
+-rw-r--r-- 1 trees 197609 93 Aug 29 12:13 about_me.txt
+-rw-r--r-- 1 trees 197609 93 Aug 29 12:17 about_me_copy.txt
+
+trees@GalaxyBook MINGW64 ~/repos1/softdev1/practicum (main)
+$ mv about_me.txt softdev1
+
+trees@GalaxyBook MINGW64 ~/repos1/softdev1/practicum (main)
+$ rm about_me_copy.txt
+
