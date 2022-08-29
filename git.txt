@@ -1,0 +1,182 @@
+
+trees@GalaxyBook MINGW64 ~/repos1/softdev1/practicum (main)
+$ git --version
+git version 2.37.2.windows.2
+
+trees@GalaxyBook MINGW64 ~/repos1/softdev1/practicum (main)
+$ cd ..
+
+trees@GalaxyBook MINGW64 ~/repos1/softdev1 (main)
+$ cd ..
+
+trees@GalaxyBook MINGW64 ~/repos1 (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        deleted:    softdev1/questions.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        scavenger_hunt/
+        softdev1/Tre/
+        softdev1/practicum/
+        softdev1/repos1/
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+trees@GalaxyBook MINGW64 ~/repos1 (main)
+$ git add practicum
+fatal: pathspec 'practicum' did not match any files
+
+trees@GalaxyBook MINGW64 ~/repos1 (main)
+$ git add softdev1/practicum
+warning: in the working copy of 'softdev1/practicum/files.txt', LF will be replced by CRLF the next time Git touches it
+warning: in the working copy of 'softdev1/practicum/softdev1', LF will be replaed by CRLF the next time Git touches it
+
+trees@GalaxyBook MINGW64 ~/repos1 (main)
+$ git commit -m "commit1.0"
+[main 1a0d7e6] commit1.0
+ 2 files changed, 149 insertions(+)
+ create mode 100644 softdev1/practicum/files.txt
+ create mode 100644 softdev1/practicum/softdev1
+
+trees@GalaxyBook MINGW64 ~/repos1 (main)
+$ git push
+To https://github.com/tre-reese/repos1.git
+ ! [rejected]        main -> main (fetch first)
+error: failed to push some refs to 'https://github.com/tre-reese/repos1.git'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+trees@GalaxyBook MINGW64 ~/repos1 (main)
+$ git pull repos1
+fatal: 'repos1' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+trees@GalaxyBook MINGW64 ~/repos1 (main)
+$ rm about_me.txt
+rm: cannot remove 'about_me.txt': No such file or directory
+
+trees@GalaxyBook MINGW64 ~/repos1 (main)
+$ git status
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        deleted:    softdev1/questions.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        scavenger_hunt/
+        softdev1/Tre/
+        softdev1/repos1/
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+trees@GalaxyBook MINGW64 ~/repos1 (main)
+$ git push
+To https://github.com/tre-reese/repos1.git
+ ! [rejected]        main -> main (fetch first)
+error: failed to push some refs to 'https://github.com/tre-reese/repos1.git'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+trees@GalaxyBook MINGW64 ~/repos1 (main)
+$ git pull repos1
+fatal: 'repos1' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+trees@GalaxyBook MINGW64 ~/repos1 (main)
+$ git pull tre-reese/repos1
+fatal: 'tre-reese/repos1' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+trees@GalaxyBook MINGW64 ~/repos1 (main)
+$ git pull https://github.com/tre-reese/repos1.git
+remote: Enumerating objects: 10, done.
+remote: Counting objects: 100% (10/10), done.
+remote: Compressing objects: 100% (9/9), done.
+remote: Total 9 (delta 0), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (9/9), 1.10 MiB | 8.09 MiB/s, done.
+From https://github.com/tre-reese/repos1
+ * branch            HEAD       -> FETCH_HEAD
+error: The following untracked working tree files would be overwritten by merge
+        scavenger_hunt/IMG_4156.jpg
+        scavenger_hunt/IMG_4157.jpg
+        scavenger_hunt/IMG_4158.jpg
+        scavenger_hunt/IMG_4161.jpg
+        scavenger_hunt/softdev screenshots.docx
+Please move or remove them before you merge.
+Aborting
+
+trees@GalaxyBook MINGW64 ~/repos1 (main)
+$ git push
+To https://github.com/tre-reese/repos1.git
+ ! [rejected]        main -> main (non-fast-forward)
+error: failed to push some refs to 'https://github.com/tre-reese/repos1.git'
+hint: Updates were rejected because the tip of your current branch is behind
+hint: its remote counterpart. Integrate the remote changes (e.g.
+hint: 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+trees@GalaxyBook MINGW64 ~/repos1 (main)
+$ git push
+To https://github.com/tre-reese/repos1.git
+ ! [rejected]        main -> main (fetch first)
+error: failed to push some refs to 'https://github.com/tre-reese/repos1.git'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+trees@GalaxyBook MINGW64 ~/repos1 (main)
+$ git pull https://github.com/tre-reese/repos1.git
+remote: Enumerating objects: 11, done.
+remote: Counting objects: 100% (11/11), done.
+remote: Compressing objects: 100% (10/10), done.
+remote: Total 10 (delta 0), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (10/10), 1.10 MiB | 10.71 MiB/s, done.
+From https://github.com/tre-reese/repos1
+ * branch            HEAD       -> FETCH_HEAD
+Merge made by the 'ort' strategy.
+
+trees@GalaxyBook MINGW64 ~/repos1 (main)
+$ git push
+Enumerating objects: 9, done.
+Counting objects: 100% (9/9), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (7/7), done.
+Writing objects: 100% (7/7), 1.78 KiB | 912.00 KiB/s, done.
+Total 7 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), done.
+To https://github.com/tre-reese/repos1.git
+   dab6425..41a3b96  main -> main
+
+
+
+
+
+
