@@ -36,7 +36,8 @@ def sq4():
     turtle.forward(1000)
     turtle.right(90)
 #background square functions^^
-
+def circle():
+    turtle.circle(50)
 turtle.goto(-500,0)
 
 turtle.fillcolor("navy")
@@ -61,11 +62,29 @@ turtle.begin_fill()
 sq3()
 turtle.end_fill()
 turtle.penup
+turtle.goto(100,-100)
+turtle.fillcolor("orange")
+turtle.begin_fill()
+turtle.pencolor("yellow")
+turtle.circle(120)
+turtle.end_fill()
+turtle.penup
 turtle.pencolor("darkgreen")
 turtle.goto(-500,0)
 turtle.fillcolor("darkgreen")
 turtle.begin_fill()
 sq4()
 turtle.end_fill()
-#turtle.goto(-300,-300)
+turtle.pencolor("black")
+turtle.goto(0,0)
+turtle.pendown
+turtle.goto(-300,-400)
+turtle.fillcolor("grey")
+turtle.begin_fill()
+turtle.forward(600)
+turtle.right(-90)
+turtle.goto(50,0)
+turtle.goto(0,0)
+turtle.end_fill()
+turtle.penup
 input()
