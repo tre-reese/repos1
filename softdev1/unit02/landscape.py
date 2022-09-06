@@ -1,0 +1,71 @@
+import turtle
+def sq():
+    turtle.forward(1000)
+    turtle.right(-90)
+    turtle.forward(1000)
+    turtle.right(-90)
+    turtle.forward(1000)
+    turtle.right(-90)
+    turtle.forward(1000)
+    turtle.right(-90)
+def sq2():
+    turtle.forward(1000)
+    turtle.right(-90)
+    turtle.forward(230)
+    turtle.right(-90)
+    turtle.forward(1000)
+    turtle.right(-90)
+    turtle.forward(230)
+    turtle.right(-90)
+def sq3():
+    turtle.forward(1000)
+    turtle.right(-90)
+    turtle.forward(100)
+    turtle.right(-90)
+    turtle.forward(1000)
+    turtle.right(-90)
+    turtle.forward(100)
+    turtle.right(-90)
+def sq4():
+    turtle.forward(1000)
+    turtle.right(90)
+    turtle.forward(1000)
+    turtle.right(90)
+    turtle.forward(1000)
+    turtle.right(90)
+    turtle.forward(1000)
+    turtle.right(90)
+#background square functions^^
+
+turtle.goto(-500,0)
+
+turtle.fillcolor("navy")
+turtle.pencolor("navy")
+turtle.begin_fill()
+sq()
+turtle.end_fill()
+turtle.penup
+turtle.goto(-500,0)
+turtle.pendown
+turtle.pencolor("darkblue")
+turtle.fillcolor("darkblue")
+turtle.begin_fill()
+sq2()
+turtle.end_fill()
+turtle.penup
+turtle.goto(-500,0)
+turtle.pendown
+turtle.pencolor("mediumblue")
+turtle.fillcolor("mediumblue")
+turtle.begin_fill()
+sq3()
+turtle.end_fill()
+turtle.penup
+turtle.pencolor("darkgreen")
+turtle.goto(-500,0)
+turtle.fillcolor("darkgreen")
+turtle.begin_fill()
+sq4()
+turtle.end_fill()
+#turtle.goto(-300,-300)
+input()
